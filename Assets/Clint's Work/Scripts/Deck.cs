@@ -48,7 +48,7 @@ public class Deck : MonoBehaviour
             }
             catch (NullReferenceException n)
             {
-                Console.WriteLine("Drawn Card Has Already Been Drawn, Trying Again...")
+                Console.WriteLine("Drawn Card Has Already Been Drawn, Trying Again...");
             }
         }
         while (deck.ElementAt(drawnCard) == null);
