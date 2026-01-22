@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Card : MonoBehaviour
 {
@@ -9,5 +10,5 @@ public class Card : MonoBehaviour
 
     public string tempColor; //used for wild cards to decide color
 
-    //card image
+    public Texture2D image;
 }
